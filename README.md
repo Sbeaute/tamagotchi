@@ -30,34 +30,34 @@ A few states:
 And few behaviors:
 ```js
 eat() {
- /* feeding should satisfy hunger, depending on what you feed it, and may increase weight
-  grass, meat, tofu, bread, candy, etc…
- */
+/* feeding should satisfy hunger, depending on what you feed it, and may increase weight
+ grass, meat, tofu, bread, candy, etc…
+*/
 }
 speak() {
-  /* what needs does your tamagotchi have? */
+ /* what needs does your tamagotchi have? */
 }
 
 play() {
-  /* playing with your tamagotchi should increase happiness, satisfy need for attention, and may decrease weight */
- }
- ```
- 
- Usage:
- ```js
- tamagotchi = new Tamagotchi('Mesutchi') // Hatch your tamagotchi. Names usually end in tchi (っち)
- tamagotchi.age // 0
- tamagotchi.birthday // today's date
- tamagotchi.weight // 1 
- tamagotchi.description // 'A <lifeStage> tamagotchi named <name> born on <birthday> weighing <weight>'
- tamagotchi.speak() // 'Mesutchi is <some state>'
- ```
- 
- ## Bonus:
- Continue to implement a real tamagotchi, adding the following properties and methods:
- Properties:
- ```js
- /*
+ /* playing with your tamagotchi should increase happiness, satisfy need for attention, and may decrease weight */
+}
+```
+
+Usage:
+```js
+tamagotchi = new Tamagotchi('Mesutchi') // Hatch your tamagotchi. Names usually end in tchi (っち)
+tamagotchi.age // 0
+tamagotchi.birthday // today's date
+tamagotchi.weight // 1 
+tamagotchi.description // 'A <lifeStage> tamagotchi named <name> born on <birthday> weighing <weight>'
+tamagotchi.speak() // 'Mesutchi is <some state>'
+```
+
+## Bonus:
+Continue to implement a real tamagotchi, adding the following properties and methods:
+Properties:
+```js
+/*
 - disciplineLevel
 - isDisciplined
 - needsBathroom
@@ -70,21 +70,21 @@ play() {
 Methods:
 ```js
 
- sleep()
- 
- wake()
- 
- scold() {
-  /* fills discipline level, reduces happiness level
- }
- 
- useBathroom()
- 
- view() {
-  /* displays image of the tamagotchi */
- }
- 
- ```
- What else can your tamagotchi do?
- 
- 
+sleep()
+
+wake()
+
+scold() {
+ /* fills discipline level, reduces happiness level */
+}
+
+useBathroom()
+
+view() {
+ /* displays image of the tamagotchi */
+}
+
+```
+What else can your tamagotchi do?
+
+
